@@ -65,7 +65,7 @@ resource "aws_route_table" "private_route_table" {
   }
 
   tags = {
-    Name = var.pub-route-table
+    Name = var.priv-route-table
   }
 }
 
